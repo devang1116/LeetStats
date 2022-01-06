@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBA243D227860AAD007E86BE /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA243D127860AAD007E86BE /* CalenderView.swift */; };
+		DBA243D427860AF7007E86BE /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA243D327860AF7007E86BE /* ColorData.swift */; };
 		DBA294732785B9A5002D68F8 /* LeetCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA294722785B9A5002D68F8 /* LeetCodeApp.swift */; };
 		DBA294752785B9A5002D68F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA294742785B9A5002D68F8 /* ContentView.swift */; };
 		DBA294772785B9A6002D68F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA294762785B9A6002D68F8 /* Assets.xcassets */; };
@@ -14,6 +16,15 @@
 		DBA294842785B9A6002D68F8 /* LeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA294832785B9A6002D68F8 /* LeetCodeTests.swift */; };
 		DBA2948E2785B9A6002D68F8 /* LeetCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2948D2785B9A6002D68F8 /* LeetCodeUITests.swift */; };
 		DBA294902785B9A6002D68F8 /* LeetCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2948F2785B9A6002D68F8 /* LeetCodeUITestsLaunchTests.swift */; };
+		DBA2949D2785B9B5002D68F8 /* LeetCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2949C2785B9B5002D68F8 /* LeetCodeModel.swift */; };
+		DBA2949F2785B9DC002D68F8 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2949E2785B9DC002D68F8 /* LoginScreen.swift */; };
+		DBA294A12785BE39002D68F8 /* UserScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA294A02785BE39002D68F8 /* UserScreen.swift */; };
+		DBE5E3C72785E02A00466360 /* ChartView-2.0.0-beta.2.tar in Resources */ = {isa = PBXBuildFile; fileRef = DBE5E3C62785E02A00466360 /* ChartView-2.0.0-beta.2.tar */; };
+		DBE5E41F2785E7F700466360 /* PieChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE5E41E2785E7F700466360 /* PieChartCell.swift */; };
+		DBE5E4212785E7FF00466360 /* PieChartHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE5E4202785E7FF00466360 /* PieChartHelpers.swift */; };
+		DBE5E4232785E80400466360 /* PieChartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE5E4222785E80400466360 /* PieChartRow.swift */; };
+		DBE5E4252785E80D00466360 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE5E4242785E80D00466360 /* PieChartView.swift */; };
+		DBE5E4272785E83800466360 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE5E4262785E83800466360 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DBA243D127860AAD007E86BE /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		DBA243D327860AF7007E86BE /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
 		DBA2946F2785B9A5002D68F8 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA294722785B9A5002D68F8 /* LeetCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeApp.swift; sourceTree = "<group>"; };
 		DBA294742785B9A5002D68F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,17 @@
 		DBA294892785B9A6002D68F8 /* LeetCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA2948D2785B9A6002D68F8 /* LeetCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeUITests.swift; sourceTree = "<group>"; };
 		DBA2948F2785B9A6002D68F8 /* LeetCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBA2949C2785B9B5002D68F8 /* LeetCodeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCodeModel.swift; sourceTree = "<group>"; };
+		DBA2949E2785B9DC002D68F8 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		DBA294A02785BE39002D68F8 /* UserScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScreen.swift; sourceTree = "<group>"; };
+		DBA294A92785CC26002D68F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DBE5E3C52785DFB600466360 /* ChartView-2.0.0-beta.2 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "ChartView-2.0.0-beta.2"; sourceTree = "<group>"; };
+		DBE5E3C62785E02A00466360 /* ChartView-2.0.0-beta.2.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; name = "ChartView-2.0.0-beta.2.tar"; path = "../../../../Downloads/ChartView-2.0.0-beta.2.tar"; sourceTree = "<group>"; };
+		DBE5E41E2785E7F700466360 /* PieChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieChartCell.swift; path = "../../../../../Downloads/ChartView-master/Sources/SwiftUICharts/PieChart/PieChartCell.swift"; sourceTree = "<group>"; };
+		DBE5E4202785E7FF00466360 /* PieChartHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieChartHelpers.swift; path = "../../../../../Downloads/ChartView-master/Sources/SwiftUICharts/PieChart/PieChartHelpers.swift"; sourceTree = "<group>"; };
+		DBE5E4222785E80400466360 /* PieChartRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieChartRow.swift; path = "../../../../../Downloads/ChartView-master/Sources/SwiftUICharts/PieChart/PieChartRow.swift"; sourceTree = "<group>"; };
+		DBE5E4242785E80D00466360 /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieChartView.swift; path = "../../../../../Downloads/ChartView-master/Sources/SwiftUICharts/PieChart/PieChartView.swift"; sourceTree = "<group>"; };
+		DBE5E4262785E83800466360 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = "../../../../../Downloads/ChartView-master/Sources/SwiftUICharts/Helpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DBA243D02785F94E007E86BE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DBA294722785B9A5002D68F8 /* LeetCodeApp.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 		DBA294662785B9A5002D68F8 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +126,12 @@
 		DBA294712785B9A5002D68F8 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				DBA294722785B9A5002D68F8 /* LeetCodeApp.swift */,
-				DBA294742785B9A5002D68F8 /* ContentView.swift */,
+				DBA294A22785C9C7002D68F8 /* Views */,
+				DBA294A32785C9D1002D68F8 /* Models */,
+				DBE5E41D2785E7CC00466360 /* Charts */,
+				DBE5E3642785DBFA00466360 /* Utilities */,
+				DBA243D02785F94E007E86BE /* AppDelegate */,
+				DBA294A92785CC26002D68F8 /* Info.plist */,
 				DBA294762785B9A6002D68F8 /* Assets.xcassets */,
 				DBA294782785B9A6002D68F8 /* Preview Content */,
 			);
@@ -121,10 +157,51 @@
 		DBA2948C2785B9A6002D68F8 /* LeetCodeUITests */ = {
 			isa = PBXGroup;
 			children = (
+				DBE5E3C62785E02A00466360 /* ChartView-2.0.0-beta.2.tar */,
+				DBE5E3C52785DFB600466360 /* ChartView-2.0.0-beta.2 */,
 				DBA2948D2785B9A6002D68F8 /* LeetCodeUITests.swift */,
 				DBA2948F2785B9A6002D68F8 /* LeetCodeUITestsLaunchTests.swift */,
 			);
 			path = LeetCodeUITests;
+			sourceTree = "<group>";
+		};
+		DBA294A22785C9C7002D68F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBA294742785B9A5002D68F8 /* ContentView.swift */,
+				DBA2949E2785B9DC002D68F8 /* LoginScreen.swift */,
+				DBA294A02785BE39002D68F8 /* UserScreen.swift */,
+				DBA243D127860AAD007E86BE /* CalenderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBA294A32785C9D1002D68F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DBA2949C2785B9B5002D68F8 /* LeetCodeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DBE5E3642785DBFA00466360 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DBE5E4262785E83800466360 /* Helpers.swift */,
+				DBA243D327860AF7007E86BE /* ColorData.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DBE5E41D2785E7CC00466360 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				DBE5E4222785E80400466360 /* PieChartRow.swift */,
+				DBE5E4242785E80D00466360 /* PieChartView.swift */,
+				DBE5E4202785E7FF00466360 /* PieChartHelpers.swift */,
+				DBE5E41E2785E7F700466360 /* PieChartCell.swift */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +220,8 @@
 			dependencies = (
 			);
 			name = LeetCode;
+			packageProductDependencies = (
+			);
 			productName = LeetCode;
 			productReference = DBA2946F2785B9A5002D68F8 /* LeetCode.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +294,8 @@
 				Base,
 			);
 			mainGroup = DBA294662785B9A5002D68F8;
+			packageReferences = (
+			);
 			productRefGroup = DBA294702785B9A5002D68F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -247,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE5E3C72785E02A00466360 /* ChartView-2.0.0-beta.2.tar in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +339,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE5E4232785E80400466360 /* PieChartRow.swift in Sources */,
+				DBE5E41F2785E7F700466360 /* PieChartCell.swift in Sources */,
+				DBA2949D2785B9B5002D68F8 /* LeetCodeModel.swift in Sources */,
+				DBA294A12785BE39002D68F8 /* UserScreen.swift in Sources */,
+				DBE5E4272785E83800466360 /* Helpers.swift in Sources */,
+				DBE5E4212785E7FF00466360 /* PieChartHelpers.swift in Sources */,
+				DBA243D227860AAD007E86BE /* CalenderView.swift in Sources */,
+				DBE5E4252785E80D00466360 /* PieChartView.swift in Sources */,
+				DBA2949F2785B9DC002D68F8 /* LoginScreen.swift in Sources */,
 				DBA294752785B9A5002D68F8 /* ContentView.swift in Sources */,
 				DBA294732785B9A5002D68F8 /* LeetCodeApp.swift in Sources */,
+				DBA243D427860AF7007E86BE /* ColorData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +514,9 @@
 				DEVELOPMENT_TEAM = S6QK8T6Z25;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeetCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,9 +543,9 @@
 				DEVELOPMENT_TEAM = S6QK8T6Z25;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeetCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct LeetCodeApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+struct LeetCodeApp: App
+{
+    var body: some Scene
+    {
+        WindowGroup
+        {
+            LoginScreen()
         }
     }
 }
